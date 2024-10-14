@@ -1,0 +1,15 @@
+.nav {
+    margin-bottom: 100px;
+}
+
+.nav__list {
+    padding: 50px 0;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.nav__link {
+    width: 200px;
+    transition: var(--transition);
+}
