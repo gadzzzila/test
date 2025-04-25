@@ -1,0 +1,47 @@
+:root {
+    --general-text: #FFFFFF;
+    --general-bg: #000100;
+    --transition: all .4s;
+    --border-radius: 20px;
+}
+
+.body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    line-height: 110%;
+    color: var(--general-text);
+    background: var(--general-bg);
+    overflow-x: hidden;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: calc(1180px + 15px*2);
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 12px ;
+    width: 164px;
+    height: 39px;
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 110%;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    transform: scale(105%);
+}
